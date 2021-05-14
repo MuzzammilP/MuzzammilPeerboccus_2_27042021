@@ -1,13 +1,13 @@
-.Taille
+h1
 {
 	font-size: medium;
 }
 
-.Taille2
+h2, h5
 {
 	font-size: xx-small;
 }
-.Taille3
+h4
 {
 	font-size: small;
 }
