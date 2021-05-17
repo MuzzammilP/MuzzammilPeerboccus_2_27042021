@@ -7,11 +7,6 @@ h2, h5
 {
 	font-size: x-small;
 }
-h4
-{
-	font-size: small;
-}
-
 @font-face {
 	font-family:'raleway_light';
 	src: url('Raleway-ExtraLight.ttf');
