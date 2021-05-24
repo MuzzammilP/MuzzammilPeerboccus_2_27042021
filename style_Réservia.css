@@ -3,7 +3,7 @@ h1
 	font-size: medium;
 }
 
-h2, h5
+h2, h5, p
 {
 	font-size: x-small;
 }
@@ -12,7 +12,7 @@ h2, h5
 	src: url('Raleway-ExtraLight.ttf');
 }
 
-h2, h5
+h2, h5, p
 {
 	font-family: 'raleway_light';
 }
@@ -29,4 +29,9 @@ h1, h3, h4
 h4
 {
 	font-size: small;
+}
+
+.haut{
+	display: flex;
+	justify-content: space-between;
 }
