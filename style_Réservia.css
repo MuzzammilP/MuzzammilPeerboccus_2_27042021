@@ -3,26 +3,28 @@ h1
 	font-size: medium;
 }
 
-h2, h5, .Affiche
+h2, h5, .Affiche, .changefoot
 {
 	font-size: x-small;
 }
-@font-face {
+@font-face
+{
 	font-family:'raleway_light';
 	src: url('Raleway-ExtraLight.ttf');
 }
 
-h2, h5, .Affiche
+h2, .Affiche, .changefoot
 {
-	font-family: 'raleway_light';
+	font-family:'raleway_light';
 }
 
-@font-face {
+@font-face 
+{
 	font-family:'raleway_gras';
 	src: url('Raleway-Bold.ttf');
 }
 
-h1, h3, h4, .bas, label
+h1, h3, h4, .bas, label, .gras
 {
 	font-family: 'raleway_gras';
 }
@@ -37,7 +39,7 @@ h4, .bas
 	justify-content: space-between;
 }
 
-ul
+.long
 {
 	font-size: small;
 	display: flex;
@@ -56,4 +58,27 @@ ul
 {
 	width: 900px;
     margin: auto;
+}
+
+section, aside
+{
+	background-color: #F2F2F2;
+	border-radius: 10px / 10px;
+}
+
+footer
+{
+	background-color: #F2F2F2;
+}
+
+.foot
+{
+	list-style-type: none;
+}
+
+.changefoot
+{
+	display: flex;
+	justify-content: space-between;
+	width: 60%
 }
