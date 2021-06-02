@@ -24,7 +24,7 @@ h2, .Affiche, .changefoot
 	src: url('Raleway-Bold.ttf');
 }
 
-h1, h3, h4, .bas, label, .gras
+h1, h3, h4, .bas, label, .gras, .sublue
 {
 	font-family: 'raleway_gras';
 }
@@ -43,8 +43,8 @@ h4, .bas
 {
 	font-size: small;
 	display: flex;
-	justify-content: space-between;
 	list-style-type: none;
+	justify-content: space-between;
 	width: 50%
 }
 
@@ -52,6 +52,12 @@ h4, .bas
 {
 	display: flex;
 	justify-content: space-between;
+}
+
+.margehaut
+{
+	margin-left: 60px;
+	margin-right: 25px;
 }
 
 @media screen and (max-width: 1280px)
@@ -92,4 +98,9 @@ a, .foot
 .margin
 {
 	margin-bottom: 5px;
+}
+
+.sublue, .heblue
+{
+	color: #0065FC;
 }
