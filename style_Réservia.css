@@ -82,3 +82,14 @@ footer
 	justify-content: space-between;
 	width: 60%
 }
+
+a, .foot 
+{
+	text-decoration: none;
+	color: black;
+}
+
+.margin
+{
+	margin-bottom: 5px;
+}
