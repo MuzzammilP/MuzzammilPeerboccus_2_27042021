@@ -32,6 +32,10 @@ h4, .bas
 {
 	font-size: small;
 }
+.bas
+{
+	margin-left: -40px;
+}
 
 .haut
 {
@@ -58,12 +62,6 @@ h4, .bas
 {
 	margin-left: 60px;
 	margin-right: 25px;
-}
-
-@media screen and (max-width: 1280px)
-{
-	width: 900px;
-    margin: auto;
 }
 
 section, aside
@@ -131,7 +129,7 @@ a, .foot
 .fa-map-marker-alt
 {
 	margin-right: 5px;
-	margin-left: 1px;
+	margin-left: -1px;
 	font-size: 12px;
 	background-color: #F2F2F2;
 	padding: 12px;
@@ -141,7 +139,7 @@ a, .foot
 
 .reche
 {
-	margin-left: 10px;
+	margin-left: 12px;
 	font-size: 12px;
 	background-color: #0065FC;
 	color: white;
@@ -164,7 +162,11 @@ a, .foot
 	border-style: solid;
 	border-color: #F2F2F2;
 	border-width: 2px;
-	border-radius: 10px;
+	border-radius: 11px;
 	width: 293px;
-	padding: -1px;
+}
+
+.eco 
+{
+	margin-left: -5px;
 }
