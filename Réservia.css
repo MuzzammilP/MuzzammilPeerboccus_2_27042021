@@ -68,6 +68,7 @@ h4, .bas
 {
 	background-color: #F2F2F2;
 	border-radius: 10px / 10px;
+	margin: 30px;
 }
 
 footer
@@ -169,4 +170,43 @@ a, .foot
 .eco 
 {
 	margin-left: -5px;
+}
+
+img
+{
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 15px;
+}
+
+.dimheberge
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.heberge
+{
+	max-width: 	900px;
+	max-height: 900px;
+}
+
+.contient
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.heberge2
+{
+	max-width: 500px;
+	maw-height: 390px;
+}
+.photo1
+{
+	margin: 30px;
+}
+.dimpopu
+{
+	display: flex;
+	flex-direction: column;
 }
