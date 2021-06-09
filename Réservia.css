@@ -176,13 +176,16 @@ img
 {
 	max-width: 200px;
 	max-height: 200px;
-	border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin: -26px;
 }
 
 .dimheberge
 {
 	display: flex;
 	flex-wrap: wrap;
+	text-align: left;
 }
 
 .heberge
@@ -201,12 +204,42 @@ img
 	max-width: 500px;
 	maw-height: 390px;
 }
+
 .photo1
 {
 	margin: 30px;
 }
+
 .dimpopu
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.auberge
+{
+	border-radius: 15px;
+	background-color: white;
+}
+
+.aub1
+{
+	margin-left: 10px;
+}
+
+.aub2
+{
+	font-size: small;
+}
+
+.fa-star
+{
+	color: #0065FC;
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+.gras
+{
+	font-weight: bold;
 }
