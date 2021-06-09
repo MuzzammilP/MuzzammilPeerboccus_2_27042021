@@ -41,6 +41,7 @@ h4, .bas
 {
 	display: flex;
 	justify-content: space-between;
+	width: 97%;
 }
 
 .long
@@ -64,11 +65,17 @@ h4, .bas
 	margin-right: 25px;
 }
 
-.heberge, aside
+.heberge
 {
 	background-color: #F2F2F2;
-	border-radius: 10px / 10px;
+	border-radius: 15px / 15px;
 	margin: 30px;
+}
+
+.popu
+{
+	background-color: #F2F2F2;
+	border-radius: 15px / 15px;
 }
 
 footer
@@ -172,7 +179,7 @@ a, .foot
 	margin-left: -5px;
 }
 
-img
+.photo2
 {
 	max-width: 200px;
 	max-height: 200px;
@@ -194,15 +201,16 @@ img
 	max-height: 900px;
 }
 
+.popu
+{
+	width: 300px;
+	width: 400px;
+}
+
 .contient
 {
 	display: flex;
 	flex-wrap: wrap;
-}
-.heberge2
-{
-	max-width: 500px;
-	maw-height: 390px;
 }
 
 .photo1
@@ -242,4 +250,21 @@ img
 .gras
 {
 	font-weight: bold;
+}
+
+.photo3
+{
+	max-width: 150px;
+	max-height: 200px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.pluspopu
+{
+	border-radius: 15px;
+	background-color: white;
+	display: flex;
+	padding-top: 3px;
+	padding-left: 3px;
 }
