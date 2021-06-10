@@ -49,8 +49,19 @@ h4, .bas
 	font-size: small;
 	display: flex;
 	list-style-type: none;
-	justify-content: space-between;
-	width: 70%
+	justify-content: space-around;
+	width: 45%
+}
+
+.filtres
+{
+	margin-top: 5px;
+}
+
+.plus
+{
+	margin-top: 25px;
+	margin-bottom: -5px;
 }
 
 .Affiche
@@ -182,7 +193,7 @@ a, .foot
 .photo2
 {
 	width: 200px;
-	height: 200px;
+	height: 100px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	margin: -26px;
@@ -193,25 +204,25 @@ a, .foot
 	display: flex;
 	flex-wrap: wrap;
 	text-align: left;
+	justify-content: space-between;
 }
 
 .heberge
 {
-	max-width: 	900px;
-	max-height: 900px;
+	width: 	900px;
+	height: 550px;
 }
 
 .popu
 {
-	width: 300px;
 	width: 400px;
+	height: 550px;
 }
 
 .contient
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .photo1
@@ -229,6 +240,8 @@ a, .foot
 {
 	border-radius: 15px;
 	background-color: white;
+	box-shadow: 2px 2px 10px grey;
+	margin: 20px;
 }
 
 .aub1
@@ -239,6 +252,11 @@ a, .foot
 .aub2
 {
 	font-size: small;
+}
+.aub3
+{
+	font-size: small;
+	margin-left: 10px;
 }
 
 .fa-star
@@ -256,7 +274,7 @@ a, .foot
 .photo3
 {
 	width: 150px;
-	height: 200px;
+	height: 120px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 }
@@ -268,12 +286,13 @@ a, .foot
 	display: flex;
 	padding-top: 3px;
 	padding-left: 3px;
+	box-shadow: 2px 2px 10px grey;
+	margin: 18px;
 }
 
 .dimact
 {
 	display: flex;
-	justify-content: space-between;
 }
 
 .photo4
@@ -285,8 +304,8 @@ a, .foot
 }
 .photo5
 {
-	width: 200px;
-	height: 175px;
+	width: 250px;
+	height: 150px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -295,4 +314,16 @@ a, .foot
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.logopopu
+{
+	display: flex;
+	justify-content: space-between;
+}
+.ombre
+{
+	box-shadow: 2px 2px 10px #F2F2F2;
+	border-radius: 15px;
+	margin: 40px;
 }
