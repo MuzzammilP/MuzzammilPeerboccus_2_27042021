@@ -103,7 +103,7 @@ footer
 {
 	display: flex;
 	justify-content: space-between;
-	width: 60%
+	width: 65%
 }
 
 a, .foot 
@@ -269,6 +269,7 @@ a, .foot
 .gras
 {
 	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 .photo3
