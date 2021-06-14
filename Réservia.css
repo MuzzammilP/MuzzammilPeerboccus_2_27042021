@@ -10,7 +10,7 @@ h2, h5, .Affiche, .changefoot
 @font-face
 {
 	font-family:'raleway_light';
-	src: url('Raleway-ExtraLight.ttf');
+	src: url('Police/Raleway-ExtraLight.ttf');
 }
 
 h2, .Affiche, .changefoot
@@ -21,7 +21,7 @@ h2, .Affiche, .changefoot
 @font-face 
 {
 	font-family:'raleway_gras';
-	src: url('Raleway-Bold.ttf');
+	src: url('Police/Raleway-Bold.ttf');
 }
 
 h1, h3, h4, .bas, label, .gras, .sublue
@@ -97,13 +97,14 @@ footer
 .foot
 {
 	list-style-type: none;
+	margin-bottom: 20px;
 }
 
 .changefoot
 {
 	display: flex;
 	justify-content: space-between;
-	width: 60%
+	width: 65%
 }
 
 a, .foot 
@@ -209,20 +210,18 @@ a, .foot
 
 .heberge
 {
-	width: 	900px;
-	height: 550px;
+
+	width: 65%;
 }
 
 .popu
 {
-	width: 400px;
-	height: 550px;
+	width: 85%;
 }
 
 .contient
 {
 	display: flex;
-	flex-wrap: wrap;
 }
 
 .photo1
@@ -247,6 +246,7 @@ a, .foot
 .aub1
 {
 	margin-left: 10px;
+	flex-wrap: nowrap;
 }
 
 .aub2
@@ -269,6 +269,8 @@ a, .foot
 .gras
 {
 	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 30px;
 }
 
 .photo3
@@ -293,18 +295,19 @@ a, .foot
 .dimact
 {
 	display: flex;
+	justify-content: space-between;
 }
 
 .photo4
 {
-	width: 250px;
-	height: 400px;
+	width: 260px;
+	height: 420px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
 .photo5
 {
-	width: 250px;
+	width: 260px;
 	height: 150px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -326,4 +329,10 @@ a, .foot
 	box-shadow: 2px 2px 10px #F2F2F2;
 	border-radius: 15px;
 	margin: 40px;
+}
+
+.titreact
+{
+	margin-left: 45px;
+	margin-bottom: -20px;
 }

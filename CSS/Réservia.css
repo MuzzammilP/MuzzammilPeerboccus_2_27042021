@@ -10,7 +10,7 @@ h2, h5, .Affiche, .changefoot
 @font-face
 {
 	font-family:'raleway_light';
-	src: url('Raleway-ExtraLight.ttf');
+	src: url('Police/Raleway-ExtraLight.ttf');
 }
 
 h2, .Affiche, .changefoot
@@ -21,7 +21,7 @@ h2, .Affiche, .changefoot
 @font-face 
 {
 	font-family:'raleway_gras';
-	src: url('Raleway-Bold.ttf');
+	src: url('Police/Raleway-Bold.ttf');
 }
 
 h1, h3, h4, .bas, label, .gras, .sublue
@@ -49,8 +49,19 @@ h4, .bas
 	font-size: small;
 	display: flex;
 	list-style-type: none;
-	justify-content: space-between;
-	width: 70%
+	justify-content: space-around;
+	width: 45%
+}
+
+.filtres
+{
+	margin-top: 5px;
+}
+
+.plus
+{
+	margin-top: 25px;
+	margin-bottom: -5px;
 }
 
 .Affiche
@@ -86,13 +97,14 @@ footer
 .foot
 {
 	list-style-type: none;
+	margin-bottom: 20px;
 }
 
 .changefoot
 {
 	display: flex;
 	justify-content: space-between;
-	width: 60%
+	width: 65%
 }
 
 a, .foot 
@@ -181,8 +193,8 @@ a, .foot
 
 .photo2
 {
-	max-width: 200px;
-	max-height: 200px;
+	width: 200px;
+	height: 100px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	margin: -26px;
@@ -193,24 +205,23 @@ a, .foot
 	display: flex;
 	flex-wrap: wrap;
 	text-align: left;
+	justify-content: space-between;
 }
 
 .heberge
 {
-	max-width: 	900px;
-	max-height: 900px;
+
+	width: 65%;
 }
 
 .popu
 {
-	width: 300px;
-	width: 400px;
+	width: 85%;
 }
 
 .contient
 {
 	display: flex;
-	flex-wrap: wrap;
 }
 
 .photo1
@@ -228,16 +239,24 @@ a, .foot
 {
 	border-radius: 15px;
 	background-color: white;
+	box-shadow: 2px 2px 10px grey;
+	margin: 20px;
 }
 
 .aub1
 {
 	margin-left: 10px;
+	flex-wrap: nowrap;
 }
 
 .aub2
 {
 	font-size: small;
+}
+.aub3
+{
+	font-size: small;
+	margin-left: 10px;
 }
 
 .fa-star
@@ -250,12 +269,14 @@ a, .foot
 .gras
 {
 	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 30px;
 }
 
 .photo3
 {
-	max-width: 150px;
-	max-height: 200px;
+	width: 150px;
+	height: 120px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 }
@@ -267,4 +288,51 @@ a, .foot
 	display: flex;
 	padding-top: 3px;
 	padding-left: 3px;
+	box-shadow: 2px 2px 10px grey;
+	margin: 18px;
+}
+
+.dimact
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.photo4
+{
+	width: 260px;
+	height: 420px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.photo5
+{
+	width: 260px;
+	height: 150px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.dimact2
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.logopopu
+{
+	display: flex;
+	justify-content: space-between;
+}
+.ombre
+{
+	box-shadow: 2px 2px 10px #F2F2F2;
+	border-radius: 15px;
+	margin: 40px;
+}
+
+.titreact
+{
+	margin-left: 45px;
+	margin-bottom: -20px;
 }
