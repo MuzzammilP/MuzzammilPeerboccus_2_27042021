@@ -24,7 +24,7 @@ h2, .Affiche, .changefoot
 	src: url('Police/Raleway-Bold.ttf');
 }
 
-h1, h3, h4, .bas, label, .gras, .sublue
+h1, h3, h4, .bas, label, .gras, .sublue, .barrerecherche
 {
 	font-family: 'raleway_gras';
 }
@@ -37,7 +37,6 @@ h4, .bas
 {
 	display: flex;
 	justify-content: space-between;
-	width: 97%;
 }
 
 .long
@@ -54,7 +53,7 @@ h4, .bas
 
 .plus
 {
-	margin-top: 25px;
+	margin-top: 35px;
 	margin-bottom: 10px;
 	margin-left: 20px;
 }
@@ -67,8 +66,8 @@ h4, .bas
 
 .margehaut
 {
-	margin-left: 60px;
-	margin-right: 25px;
+	margin-left: 50px;
+	margin-right: 40px;
 }
 
 .heberge
@@ -119,6 +118,15 @@ a, .foot
 	color: #0065FC;
 }
 
+.barreblue
+{
+	border-width: 1px;
+	border-color: #0065FC;
+	width: 165px;
+	margin-top: -21px;
+	margin-bottom: 15px;
+}
+
 .fa-info
 {
 	font-size: 7px;
@@ -155,7 +163,7 @@ a, .foot
 
 .reche
 {
-	margin-left: 12px;
+	margin-left: 16px;
 	font-size: 12px;
 	background-color: #0065FC;
 	color: white;
@@ -172,17 +180,19 @@ a, .foot
 	padding-right: 18px;
 	padding-left: 4px;
 	border-radius: 100px;
-	margin-left: 80px;
+	margin-left: 60px;
 }
 
 .Recherche
 {
 	border-style: solid;
 	border-color: #F2F2F2;
-	border-width: 2px;
+	border-width: 1px;
 	border-radius: 15px;
-	width: 301px;
+	width: 302px;
 	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 .photo2
@@ -366,4 +376,12 @@ a, .foot
 .bonaligne
 {
 	margin-left: 20px;
+}
+.barrerecherche
+{
+	border: none;
+}
+.tour1:hover
+{
+	background-color: #0065FC;
 }
