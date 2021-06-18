@@ -39,7 +39,7 @@ h4, .bas
 	justify-content: space-between;
 }
 
-.long
+.long, .longueur
 {
 	font-size: small;
 	display: flex;
@@ -385,3 +385,51 @@ a, .foot
 {
 	background-color: #0065FC;
 }
+@media screen and (max-width: 1300px)
+{
+	.changefoot{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.dimact{
+		display: flex;
+		flex-direction: column;
+	}
+	.photo4, .photo5{
+		width: 100%;
+		height: 300px;
+		border-top-left-radius: 15px;
+	}
+	.ombre{
+		height: 300px;
+	}
+	.contient{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.popu{
+		border-radius: 0px;
+	}
+	.photo3{
+		width: 300px;
+		height: 300px;
+	}
+	.heberge{
+		background-color: white;
+	}
+	.dimheberge{
+		display: flex;
+		flex-direction: column;
+	}
+	.photo2{
+		width: 600px;
+		height: 300px;
+	}
+	.auberge{
+		width: 100%;
+	}
+}
+
+
+
