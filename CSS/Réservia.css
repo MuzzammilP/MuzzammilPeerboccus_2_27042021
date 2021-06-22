@@ -1,9 +1,9 @@
-h1
+h1, .marseille, .pluspopulaire, .titreact
 {
 	font-size: medium;
 }
 
-h2, h5, .Affiche, .changefoot
+h2, h5, .Affiche, .changefoot, .Afficherplus
 {
 	font-size: small;
 }
@@ -24,7 +24,7 @@ h2, .Affiche, .changefoot
 	src: url('../Police/Raleway-Bold.ttf');
 }
 
-h1, h3, h4, .bas, label, .gras, .sublue, .barrerecherche
+h1, h3, h4, .bas, label, .gras, .sublue, .barrerecherche, .aub2, .Afficherplus, .aub3, .marseille, .pluspopulaire, .titreact
 {
 	font-family: 'raleway_gras';
 }
@@ -39,7 +39,14 @@ h4, .bas
 	justify-content: space-between;
 }
 
-.long, .longueur
+.long
+{
+	font-size: small;
+	display: flex;
+	list-style-type: none;
+}
+
+.longueur
 {
 	font-size: small;
 	display: flex;
@@ -118,13 +125,14 @@ a, .foot
 	color: #0065FC;
 }
 
-.barreblue
+.heblue
 {
-	border-width: 1px;
+	border-top-style: solid;
+	border-width: 2px;
 	border-color: #0065FC;
-	width: 165px;
-	margin-top: -21px;
-	margin-bottom: 15px;
+	padding-top: 19px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .fa-info
@@ -210,18 +218,21 @@ a, .foot
 	flex-wrap: wrap;
 	text-align: left;
 	justify-content: space-between;
+	margin-bottom: 12px;
 }
 
 .heberge
 {
 
 	width: 79%;
+	padding-top: 20px;
 }
 
 .contient
 {
 	display: flex;
 	width: 99%;
+	margin-bottom: 40px;
 }
 
 .photo1
@@ -256,7 +267,7 @@ a, .foot
 .aub3
 {
 	font-size: small;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .fa-star
@@ -300,6 +311,7 @@ a, .foot
 	justify-content: space-between;
 	width: 107%;
 	margin-left: -40px;
+	margin-top: -20px;
 }
 
 .photo4
@@ -308,6 +320,7 @@ a, .foot
 	height: 420px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	margin-bottom: 10px;
 }
 .photo5
 {
@@ -315,6 +328,7 @@ a, .foot
 	height: 150px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	margin-bottom: 10px;
 }
 
 .dimact2
@@ -333,6 +347,7 @@ a, .foot
 	box-shadow: 2px 2px 10px #F2F2F2;
 	border-radius: 15px;
 	margin: 40px;
+	padding-bottom: 10px;
 }
 
 .titreact
@@ -341,14 +356,12 @@ a, .foot
 }
 .marseille
 {
-	margin-top: 36px;
-	margin-bottom: -1px;
-	margin-left: 10px;
+
+	margin-left: 16px;
 }
 .Afficherplus
 {
-	margin-left: 20px;
-	margin-bottom: 40px;
+	margin-left: 16px;
 }
 .pluspopulaire
 {
