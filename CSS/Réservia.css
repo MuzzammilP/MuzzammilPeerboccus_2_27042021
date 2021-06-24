@@ -3,7 +3,7 @@ h1, .marseille, .pluspopulaire, .titreact
 	font-size: medium;
 }
 
-h2, h5, .Affiche, .changefoot, .Afficherplus
+h2, h5, .Affiche, .changefoot, .Afficherplus, .bonaligne2
 {
 	font-size: small;
 }
@@ -13,7 +13,7 @@ h2, h5, .Affiche, .changefoot, .Afficherplus
 	src: url('../Police/Raleway-ExtraLight.ttf');
 }
 
-h2, .Affiche, .changefoot
+h2, .Affiche, .changefoot, .bonaligne2
 {
 	font-family:'raleway_light';
 }
@@ -197,13 +197,46 @@ a, .foot
 	margin-left: 60px;
 }
 
+.tour2
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d9;
+	padding-right: 18px;
+	padding-left: 4px;
+	border-radius: 100px;
+	margin-left: 60px;
+}
+
+.tour3
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d9;
+	padding-right: 18px;
+	padding-left: 4px;
+	border-radius: 100px;
+	margin-left: 60px;
+}
+
+.tour4
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d9;
+	padding-right: 18px;
+	padding-left: 4px;
+	border-radius: 100px;
+	margin-left: 60px;
+}
+
 .Recherche
 {
 	border-style: solid;
 	border-color: #F2F2F2;
 	border-width: 1px;
 	border-radius: 15px;
-	width: 302px;
+	width: 304px;
 	margin-left: 20px;
 	margin-top: 20px;
 	margin-bottom: 25px;
@@ -408,12 +441,31 @@ a, .foot
 {
 	background-color: #0065FC;
 }
+.tour2:hover
+{
+	background-color: #0065FC;
+}
+.tour3:hover
+{
+	background-color: #0065FC;
+}
+.tour4:hover
+{
+	background-color: #0065FC;
+}
+.only-mobile
+{
+	display: none;
+}
 @media screen and (max-width: 1000px)
 {
 	.changefoot{
 		display: flex;
 		flex-direction: column;
-
+	}
+	.foot{
+		margin-bottom: 70px;
+		margin-top: 90px;
 	}
 	.margin, .gras{
 		font-size: 35px;
@@ -422,6 +474,8 @@ a, .foot
 	.dimact{
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 80px;
+		margin-top: 25px;
 	}
 	.aub3{
 		font-size: 35px;
@@ -439,7 +493,7 @@ a, .foot
 		margin: 40px;
 	}
 	.titreact{
-		font-size: 50px;
+		font-size: 45px;
 	}
 	.Afficherplus{
 		font-size: 40px;
@@ -465,7 +519,7 @@ a, .foot
 		padding: 6px;
 	}
 	.pluspopu{
-		border-radius: 50px;
+		border-radius: 45px;
 	}
 	.heberge{
 		background-color: white;
@@ -503,20 +557,23 @@ a, .foot
 	}
 	.marseille
 	{
-		font-size: 50px;
+		font-size: 45px;
 	}
 	.auberge{
 		width:850px;
 		border-radius: 50px;
+		margin-bottom: 40px;
+		margin-top: 50px;
 	}
 	.pluspopulaire{
-		font-size: 50px;
+		font-size: 45px;
+		padding-top: 40px;
 	}
 	.fa-chart-line{
 		font-size: 50px;
 	}
-	.plus{
-		font-size: 22px;
+	.logi{
+		font-size: 20px;
 	}
 	.fa-info{
 		font-size: 10px;
@@ -534,7 +591,25 @@ a, .foot
 		margin-left: -80px;
 	}
 	.tour1{
-		width: 40%;
+		width: 35%;
+		font-size: 35px;
+		border-width: 5px;
+		margin-bottom: 30px;
+	}
+	.tour2{
+		width: 30%;
+		font-size: 35px;
+		border-width: 5px;
+		margin-bottom: 30px;
+	}
+	.tour3{
+		width: 35%;
+		font-size: 35px;
+		border-width: 5px;
+		margin-bottom: 30px;
+	}
+	.tour4{
+		width: 45%;
 		font-size: 35px;
 		border-width: 5px;
 		margin-bottom: 30px;
@@ -565,12 +640,18 @@ a, .foot
 		width: 90%;
 		height: 120px;
 		border-radius: 50px;
+		margin-top: 70px;
+		border-width: 4px;
+		margin-bottom: 80px;
 	}
 	.barrerecherche{
 		font-size: 50px;
 	}
+	.bonaligne{
+		font-size: 25px;
+	}
 	.bonaligne2{
-		font-size: 22px;
+		font-size: 14px;
 	}
 	.logo1{
 		width: 250px;
@@ -610,8 +691,20 @@ a, .foot
 		padding-left: 150px;
 		padding-right: 180px;
 	}
+	.dimpopu{
+		padding-bottom: 70px;
+		padding-top: 40px;
+	}
+	.only-desktop {
+        display: none;
+    }
 
-}
+    .only-mobile {
+        display: inline-block;
+    }
+    .plus{
+    	font-size: 22px;
+    }
 
 
 
