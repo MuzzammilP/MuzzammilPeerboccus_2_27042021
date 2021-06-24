@@ -77,6 +77,12 @@ h4, .bas
 	margin-right: 40px;
 }
 
+.margehaut2
+{
+	margin-left: 50px;
+	margin-right: 40px;
+}
+
 .heberge
 {
 	background-color: #F2F2F2;
@@ -390,6 +396,10 @@ a, .foot
 {
 	margin-left: 20px;
 }
+.bonaligne2
+{
+	margin-left: 20px;
+}
 .barrerecherche
 {
 	border: none;
@@ -428,10 +438,17 @@ a, .foot
 		box-shadow: 5px 5px 20px #F2F2F2;
 		margin: 40px;
 	}
+	.titreact{
+		font-size: 50px;
+	}
+	.Afficherplus{
+		font-size: 40px;
+	}
 	.photo4, .photo5{
 		width: 100%;
 		height: 300px;
-		border-top-left-radius: 15px;
+		border-top-left-radius: 50px;
+		border-top-right-radius: 50px;
 	}
 	.contient{
 		display: flex;
@@ -441,8 +458,14 @@ a, .foot
 		border-radius: 0px;
 	}
 	.photo3{
-		width: 300px;
-		height: 300px;
+		width: 320px;
+		height: 350px;
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+		padding: 6px;
+	}
+	.pluspopu{
+		border-radius: 50px;
 	}
 	.heberge{
 		background-color: white;
@@ -452,12 +475,142 @@ a, .foot
 		flex-direction: column;
 	}
 	.photo2{
-		width: 600px;
+		width: 840px;
 		height: 300px;
+		border-top-left-radius: 50px;
+		border-top-right-radius: 50px;
+	}
+	.aub2{
+		font-size: 35px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.fa-star, .stargrey
+	{
+		font-size: 25px;
+	}
+	.etoilebas{
+		margin-top: 140px;
+	}
+	.etoilebas2{
+		margin-top: 180px;
+	}
+	.aub1{
+		margin-left: 35px;
+		padding-bottom: 23px;
+		padding-top: 20px;
+	}
+	.marseille
+	{
+		font-size: 50px;
 	}
 	.auberge{
-		width: 100%;
+		width:850px;
+		border-radius: 50px;
 	}
+	.pluspopulaire{
+		font-size: 50px;
+	}
+	.fa-chart-line{
+		font-size: 50px;
+	}
+	.plus{
+		font-size: 22px;
+	}
+	.fa-info{
+		font-size: 10px;
+		margin-right: 10px;
+		padding-bottom: 60px;
+		border-radius: 100%;
+		border-style: solid;
+		border-width: 4px;
+		border-color: #F2F2F2;
+		padding: 15px;
+	}
+	.long{
+		display: flex;
+		flex-direction: column;
+		margin-left: -80px;
+	}
+	.tour1{
+		width: 40%;
+		font-size: 35px;
+		border-width: 5px;
+		margin-bottom: 30px;
+	}
+	.fa-dog, .fa-child, .fa-heart, .fa-money-bill-wave{
+		font-size: 40px;
+		padding: 30px;
+		margin-left: -9px;
+	}
+	.filtres{
+		font-size: 35px;
+		padding-bottom: 35px;
+		margin-left: 70px;
+	}
+	.fa-map-marker-alt{
+		font-size: 40px;
+		padding: 40px;
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+	.reche{
+		font-size: 40px;
+		border-radius: 50px;
+		padding: 35px;
+
+	}
+	.Recherche{
+		width: 90%;
+		height: 120px;
+		border-radius: 50px;
+	}
+	.barrerecherche{
+		font-size: 50px;
+	}
+	.bonaligne2{
+		font-size: 22px;
+	}
+	.logo1{
+		width: 250px;
+		height: 250px;
+		display: flex;
+	}
+	.haut
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.margehaut2{
+		margin-top: -160px;
+		font-size: 40px;
+		margin-left: -270px;
+	}
+	.margehaut{
+		font-size: 40px;
+		margin-bottom: 80px;
+		margin-left: -55px;
+	}
+	.heblue{
+		border-top-style: none;
+		border-bottom-style: solid;
+		border-width: 8px;
+		border-color: #0065FC;
+		padding-bottom: 19px;
+		padding-left: 150px;
+		padding-right: 110px;
+
+	}
+	.subgrey{
+		border-bottom-style: solid;
+		border-width: 8px;
+		border-color: #F2F2F2;
+		padding-bottom: 19px;
+		padding-left: 150px;
+		padding-right: 180px;
+	}
+
 }
 
 
