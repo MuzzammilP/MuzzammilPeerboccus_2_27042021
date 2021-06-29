@@ -696,11 +696,11 @@ a, .foot
 		padding-bottom: 70px;
 		padding-top: 40px;
 	}
-	.only-desktop {
+	.only-desktop{
         display: none;
     }
 
-    .only-mobile {
+    .only-mobile{
         display: inline-block;
     }
     .plus{
