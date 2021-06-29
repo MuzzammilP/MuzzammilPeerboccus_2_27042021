@@ -699,13 +699,12 @@ a, .foot
 	.only-desktop{
         display: none;
     }
-
     .only-mobile{
         display: inline-block;
     }
     .plus{
     	font-size: 22px;
-    }
+	}
 
 
 
