@@ -469,7 +469,7 @@ a, .foot
 	margin: auto;
 }
 
-@media screen and (max-width: 1100px)
+@media screen and (max-width: 1340px)
 {
 	.changefoot{
 		display: flex;
@@ -702,12 +702,14 @@ a, .foot
 
 	}
 	.subgrey{
-		border-bottom-style: solid;
-		border-width: 8px;
-		border-color: #F2F2F2;
 		padding-bottom: 19px;
 		padding-left: 150px;
 		padding-right: 180px;
+	}
+	.subgrey:hover{
+		border-bottom-style: solid;
+		border-width: 8px;
+		border-color: #F2F2F2;
 	}
 	.dimpopu{
 		padding-bottom: 70px;
