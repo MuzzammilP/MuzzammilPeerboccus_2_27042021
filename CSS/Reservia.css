@@ -83,6 +83,12 @@ h4, .bas
 	margin-right: 40px;
 }
 
+.margehaut3
+{
+	margin-left: 50px;
+	margin-right: 40px;
+}
+
 .heberge
 {
 	background-color: #F2F2F2;
@@ -136,7 +142,7 @@ a, .foot
 	border-top-style: solid;
 	border-width: 2px;
 	border-color: #0065FC;
-	padding-top: 19px;
+	padding-top: 11px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -676,6 +682,11 @@ a, .foot
 		margin-left: -270px;
 	}
 	.margehaut{
+		font-size: 40px;
+		margin-bottom: 80px;
+		margin-left: -55px;
+	}
+	.margehaut3{
 		font-size: 40px;
 		margin-bottom: 80px;
 		margin-left: -55px;
