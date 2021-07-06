@@ -21,6 +21,7 @@
 
 	.tour1{
 		width: 35%;
+
 	}
 
 	.tour2{
@@ -33,5 +34,8 @@
 
 	.tour4{
 		width: 45%;
+	}
+	.barrerecherche{
+		width: 40%;
 	}
 }
