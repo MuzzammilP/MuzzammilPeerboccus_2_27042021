@@ -324,6 +324,7 @@ a, .foot
 	width: 107%;
 	margin-left: -40px;
 	margin-top: -20px;
+	flex-wrap: wrap;
 }
 
 .photo4
