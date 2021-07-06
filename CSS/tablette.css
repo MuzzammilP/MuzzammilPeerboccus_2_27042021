@@ -1,4 +1,4 @@
-@media screen and (max-width: 1340px)
+@media screen and (max-width: 1000px)
 {
 	.changefoot{
 		display: flex;
@@ -221,5 +221,14 @@
     }
     .plus{
     	font-size: 22px;
+	}
+	.long{
+		display: flex;
+		flex-direction: column;
+		margin-left: -80px;
+	}
+	.tour{
+		width: 35%;
+		margin-left: 60px;
 	}
 }
