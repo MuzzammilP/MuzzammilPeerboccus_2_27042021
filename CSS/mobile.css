@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 500px)
+@media screen and (max-device-width: 700px)
 
 {
 	.changefoot{
@@ -257,5 +257,8 @@
 	.tour{
 		width: 35%;
 		margin-left: 60px;
+	}
+	.footsize{
+		width: 270%;
 	}
 }

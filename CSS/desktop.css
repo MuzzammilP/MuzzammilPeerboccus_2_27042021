@@ -37,6 +37,7 @@ h4, .bas
 {
 	display: flex;
 	justify-content: space-between;
+	width: 142%;
 }
 
 .long
@@ -241,7 +242,7 @@ a, .foot
 .contient
 {
 	display: flex;
-	width: 129%;
+	width: 140%;
 	margin-bottom: 40px;
 }
 

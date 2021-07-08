@@ -2,15 +2,15 @@
 {
 
 .contient{
-	width: 100%;
 	flex-direction: column-reverse;
+	width: 100%;
 }
 
 .heberge{
-	width: 85%;
+	width: 98%;
 }
 .dimact{
-	width: 108%;
+	width: 113%;
 	flex-wrap: wrap;
 }
 .tour{
@@ -22,6 +22,10 @@
 .footsize{
 	width: 100%;
 }
-.popu{
-	width: 86%;
+.dimheberge{
+	margin-top: 20px;
+	margin-left: 80px;
+}
+.haut{
+	width: 100%;
 }
