@@ -10,7 +10,7 @@
 		margin-top: 90px;
 	}
 	.margin, .gras{
-		font-size: 25px;
+		font-size: 37px;
 		margin-bottom: 30px;
 	}
 	.dimact{
@@ -20,7 +20,7 @@
 		margin-top: 25px;
 	}
 	.aub3{
-		font-size: 25px;
+		font-size: 34px;
 		margin-bottom: 20px;
 		margin-left: 40px;
 	}
@@ -31,10 +31,10 @@
 		margin: 40px;
 	}
 	.titreact{
-		font-size: 35px;
+		font-size: 46px;
 	}
 	.Afficherplus{
-		font-size: 30px;
+		font-size: 38px;
 	}
 	.photo4, .photo5{
 		width: 100%;
@@ -46,6 +46,7 @@
 	.contient{
 		display: flex;
 		flex-direction: column-reverse;
+		width: 323%;
 	}
 	.popu{
 		border-radius: 0px;
@@ -67,6 +68,9 @@
 	.dimheberge{
 		display: flex;
 		flex-direction: column;
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 81%;
 	}
 	.photo2{
 		width: 109%;
@@ -75,10 +79,10 @@
 		border-top-right-radius: 50px;
 	}
 	.aub2{
-		font-size: 30px;
+		font-size: 34px;
 	}
 	h2{
-		font-size: 25px;
+		font-size: 30px;
 	}
 	.fa-star, .stargrey
 	{
@@ -88,7 +92,7 @@
 		margin-top: 140px;
 	}
 	.etoilebas2{
-		margin-top: 180px;
+		margin-top: 139px;
 	}
 	.aub1{
 		margin-left: 35px;
@@ -97,7 +101,7 @@
 	}
 	.marseille
 	{
-		font-size: 35px;
+		font-size: 46px;
 	}
 	.auberge{
 		width: 120%;
@@ -106,18 +110,18 @@
 		margin-top: 50px;
 	}
 	.pluspopulaire{
-		font-size: 35px;
+		font-size: 46px;
 		padding-top: 40px;
 	}
 	.fa-chart-line{
-		font-size: 40px;
+		font-size: 46px;
 		padding-top: 40px;
 	}
 	.logi{
 		font-size: 20px;
 	}
 	.fa-info{
-		font-size: 10px;
+		font-size: 30px;
 		margin-right: 10px;
 		padding-bottom: 60px;
 		border-radius: 100%;
@@ -127,20 +131,20 @@
 		padding: 15px;
 	}
 	.fa-dog, .fa-child, .fa-heart, .fa-money-bill-wave{
-		font-size: 25px;
-		padding: 20px;
+		font-size: 46px;
+		padding: 30px;
 		margin-left: -9px;
 	}
 	.fa-map-marker-alt{
-		font-size: 29px;
-		padding: 31px;
+		font-size: 45px;
+		padding: 42px;
 		border-top-left-radius: 25px;
 		border-bottom-left-radius: 25px;
 	}
 	.reche{
-		font-size: 34px;
+		font-size: 45px;
 		border-radius: 25px;
-		padding: 26px;
+		padding: 37px;
 
 	}
 	.tour {
@@ -167,29 +171,30 @@
 		width: 45%;
 	}
 	.barrerecherche{
-		width: 40%;
+		width: 65%;
 	}
 	.filtres{
-		font-size: 25px;
-		margin-left: 20px;
+		font-size: 40px;
+		margin-left: 93px;
+		margin-bottom: 30px;
 	}
 	.Recherche{
-		width: 80%;
-		height: 90px;
+		width: 306%;
+		height: 126px;
 		border-radius: 50px;
-		margin-top: 70px;
-		border-width: 2px;
-		margin-bottom: 80px;
-		margin-left: 70px;
+		margin-top: 67px;
+		border-width: 3px;
+		margin-bottom: 63px;
+		margin-left: 37px;
 	}
 	.barrerecherche{
 		font-size: 50px;
 	}
 	.bonaligne{
-		font-size: 30px;
+		font-size: 48px;
 	}
 	.bonaligne2{
-		font-size: 20px;
+		font-size: 35px;
 	}
 	.logo1{
 		width: 250px;
@@ -203,20 +208,26 @@
 	}
 	.margehaut2{
 		margin-top: -160px;
-		font-size: 31px;
+		font-size: 38px;
 		margin-left: -270px;
 	}
 	.margehaut{
-		font-size: 31px;
-		margin-bottom: 80px;
-		margin-left: -111px;
+		font-size: 38px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.margehaut3{
-		font-size: 31px;
+		font-size: 38px;
 		margin-bottom: 80px;
-		margin-left: -55px;
 	}
 	.heblue{
+		border-top-style: none;
+		padding-bottom: 19px;
+		padding-left: 150px;
+		padding-right: 110px;
+
+	}
+	.heblue:hover{
 		border-top-style: none;
 		border-bottom-style: solid;
 		border-width: 8px;
@@ -224,18 +235,8 @@
 		padding-bottom: 19px;
 		padding-left: 150px;
 		padding-right: 110px;
+	}
 
-	}
-	.subgrey{
-		padding-bottom: 19px;
-		padding-left: 150px;
-		padding-right: 180px;
-	}
-	.subgrey:hover{
-		border-bottom-style: solid;
-		border-width: 8px;
-		border-color: #F2F2F2;
-	}
 	.dimpopu{
 		padding-bottom: 70px;
 		padding-top: 40px;
@@ -247,18 +248,29 @@
         display: inline-block;
     }
     .plus{
-    	font-size: 22px;
+    	font-size: 40px;
+    	width: 300%;
 	}
 	.long{
 		display: flex;
 		flex-direction: column;
 		margin-left: -80px;
+		width: 298%;
 	}
 	.tour{
-		width: 35%;
 		margin-left: 60px;
+		font-size: 33px;
 	}
 	.footsize{
-		width: 270%;
+		width: 330%;
+	}
+	.actsize{
+		width: 288%;
+	}
+	.photo1{
+		width: 91%;
+	}
+	.headsize{
+		width: 216%;
 	}
 }
