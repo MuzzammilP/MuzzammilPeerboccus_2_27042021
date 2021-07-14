@@ -224,6 +224,7 @@ a, .foot
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	margin: -26px;
+	object-fit: cover;
 }
 
 .dimheberge
@@ -302,6 +303,7 @@ a, .foot
 	height: 128px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
+	object-fit: cover;
 }
 
 .pluspopu
@@ -333,6 +335,7 @@ a, .foot
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	margin-bottom: 10px;
+	object-fit: cover;
 }
 .photo5
 {
@@ -341,6 +344,7 @@ a, .foot
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	margin-bottom: 10px;
+	object-fit: cover;
 }
 
 .dimact2
